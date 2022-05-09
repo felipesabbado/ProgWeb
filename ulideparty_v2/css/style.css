@@ -15,19 +15,68 @@
     --BGSilver: #C0C0C0;
 }
 
-nav {
-    position: fixed;
-    width: 100%;
-    top: 0;
+/* Gerais */
+body {
+    background: linear-gradient(#2c064b 40%, #FF6DAF 100%);
+    font-family: 'Source Code Pro', Arial, sans-serif;
+}
+
+.row {
+    margin: 0;
+}
+
+h1 {
+    color: #2C064B;
+    font-size: 36px;
+}
+
+p, li {
+    color: #2C064B;
+    font-size: 14px;
+}
+
+.padding {
+    margin: 70px 0;
+}
+
+/* Barra de Navegação */
+header, .navbar {
     background-color: #404040;
 }
 
-body {
-    background-color: #2c064b;
+#nav-container {
+    padding-top: 0;
+    padding-bottom: 0;
 }
 
-.cardtype {
+#logo {
+    width: 75px;
+}
+
+.navbar-brand {
+    padding: 0;
     color: #c0c0c0;
+}
+
+.navbar-brand:hover {
+    color: #c0c0c0;
+}
+
+#navbar-links a {
+    color: #c0c0c0;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link {
+    padding: 1rem .8rem;
+}
+
+#main-logo:hover {
+    position: absolute;
+    width: 90px;
+}
+
+/* Home Page */
+.cardtype {
     width: 325px;
     height: 500px;
 }
