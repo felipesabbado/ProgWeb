@@ -1,0 +1,38 @@
+@charset "UTF-8";
+
+/*---------------------- COLORS CODE ----------------------*/
+
+:root {
+    --MediumBlue: #1E26BF;
+    --HotPink: #FF6DAF;
+    --HoneyYellow: #FFB500;
+    --RussianViolet: #2C064B;
+    --MidnightBlue: #181168;
+    --VioletCrayola: #963A7D;
+
+    --BGOnix: #404040;
+    --BGGrayWeb: #808080;
+    --BGSilver: #C0C0C0;
+}
+
+nav {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    background-color: #404040;
+}
+
+body {
+    background-color: #2c064b;
+}
+
+.cardtype {
+    color: #c0c0c0;
+    width: 325px;
+    height: 500px;
+}
+
+footer {
+    background-color: #404040;
+    border-radius: 15px;
+}
