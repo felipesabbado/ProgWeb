@@ -49,8 +49,8 @@
         </button>
         <div id="navbar-links" class="collapse navbar-collapse justify-content-end">
             <div class="navbar-nav">
-                <a id="login-menu" class="nav-item nav-link">INICIAR SESSÃO</a>
-                <a id="register-menu" class="nav-item nav-link">CRIAR CONTA</a>
+                <a id="login-menu" class="nav-item nav-link" href="dashboard/login.php">INICIAR SESSÃO</a>
+                <a id="register-menu" class="nav-item nav-link" href="dashboard/register.php">CRIAR CONTA</a>
             </div>
         </div>
     </nav>

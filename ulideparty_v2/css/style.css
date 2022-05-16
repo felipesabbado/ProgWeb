@@ -79,7 +79,11 @@ header, .navbar {
 /* Home Page */
 .header {
     background-image: url("../img/lisboa.png");
-    padding: 200px 0;
+    min-height: 600px;
+}
+
+.header img {
+    padding-top: 125px;
 }
 
 .bg-cover {
@@ -110,15 +114,39 @@ header, .navbar {
     width: 325px;
     height: 500px;
     border: none;
-    border-radius: 15px;
+    background: transparent;
     margin-top: 100px;
     margin-bottom: 100px;
 }
 
+.cardtype > img {
+    border-radius: 15px;
+}
+
 footer {
     background-color: #404040;
-    min-height: 300px;
+    height: 360px;
     //border-radius: 100px 100px 0 0;
+}
+
+footer img {
+    padding-top: 40px;
+    padding-bottom: 20px;
+}
+
+footer h2 {
+    font-family: 'Dancing Script', cursive;
+    color: var(--HoneyYellow);
+    font-size: 36px;
+}
+
+footer p {
+    color: var(--BGSilver);
+}
+
+.fi-br-envelope {
+    vertical-align: sub;
+    color: var(--HoneyYellow);
 }
 
 .footer-curve-divider {
@@ -140,7 +168,7 @@ footer {
 }
 
 #mainSlider .carousel-inner, #mainSlider .carousel-item {
-    height: 50vh;
+    height: 500px;
 }
 
 #mainSlider .carousel-caption {

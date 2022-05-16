@@ -15,11 +15,9 @@
 <main>
     <section>
         <div class="container-fluid header bg-cover">
-            <div class="row">
-                <div class="col text-center"><img src="img/logos/logo_m.png"></div>
-            </div>
-            <div class="row">
-                <div class="col text-center slogan"><h1>A diversão começa aqui!</h1></div>
+            <div class="row justify-content-center">
+                <div class="col-12 text-center"><img src="img/logos/logo_g.png" alt="Ulide Party Logo"></div>
+                <div class="col-12 text-center slogan"><h1>A diversão começa aqui!</h1></div>
             </div>
         </div>
         <div class="curve-divider inverted"></div>
@@ -27,28 +25,34 @@
     <div class="container">
         <div class="row">
             <div class="col">
-                <div class="card cardtype" id="bares">
-                    <img src="img/home_bares.jpg" alt="Bares" style="border-radius: 14px">
-                    <div class="card-img-overlay">
-                        <h1>Bares</h1>
+                <a onclick="lista(1)" href="listas.php">
+                    <div class="card cardtype" id="bares">
+                        <img src="img/home_bares.jpg" alt="Bares">
+                        <div class="card-img-overlay">
+                            <h1>Bares</h1>
+                        </div>
                     </div>
-                </div>
+                </a>
             </div>
             <div class="col">
-                <div class="card cardtype" id="restaurantes">
-                    <img src="img/home_restaurantes.jpg" alt="Restaurantes" style="border-radius: 14px">
-                    <div class="card-img-overlay">
-                        <h1>Restaurantes</h1>
+                <a onclick="lista(2)" href="listas.php">
+                    <div class="card cardtype" id="restaurantes">
+                        <img src="img/home_restaurantes.jpg" alt="Restaurantes" style="border-radius: 14px">
+                        <div class="card-img-overlay">
+                            <h1>Restaurantes</h1>
+                        </div>
                     </div>
-                </div>
+                </a>
             </div>
             <div class="col">
-                <div class="card cardtype" id="discotecas">
-                    <img src="img/home_discotecas.jpg" alt="Discotecas" style="border-radius: 14px">
-                    <div class="card-img-overlay">
-                        <h1>Discotecas</h1>
+                <a onclick="lista(3)" href="listas.php">
+                    <div class="card cardtype" id="discotecas">
+                        <img src="img/home_discotecas.jpg" alt="Discotecas" style="border-radius: 14px">
+                        <div class="card-img-overlay">
+                            <h1>Discotecas</h1>
+                        </div>
                     </div>
-                </div>
+                </a>
             </div>
         </div>
     </div>
@@ -97,6 +101,20 @@
 </main>
 <div class="footer-curve-divider"><div></div></div>
 <footer>
+    <div class="container">
+        <div class="row ">
+            <div class="col-12 text-center">
+                <img src="img/logos/logo-icon-75x75.png" alt="Ulide Party Logo">
+            </div>
+            <div class="col-12 text-center">
+                <h2>Ulide Party</br>O seu portal de diversão noturna.</h2>
+            </div>
+            <div class="col-12 text-center">
+                <p><i class="fi-br-envelope"></i> <strong>support@ulideparty.pt</strong>
+                    <br>&#169 2022 Ulide Party. Todos os direitos reservados.</p>
+            </div>
+        </div>
+    </div>
 </footer>
 </body>
 </html>
