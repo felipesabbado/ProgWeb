@@ -52,6 +52,48 @@
             </div>
         </div>
     </div>
+
+    <!-- Slider (Carousel) -->
+    <div class="container-fluid slider">
+        <div id="mainSlider" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+                <li data-target="#mainSlider" data-slide-to="0" class="active"></li>
+                <li data-target="#mainSlider" data-slide-to="1"></li>
+                <li data-target="#mainSlider" data-slide-to="2"></li>
+            </ol>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="img/rest01.webp" class="d-block w-100" alt="Descrição 01">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h2>Título de descrição 01</h2>
+                        <p>Texto de descrição 01</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="img/rest02.webp" class="d-block w-100" alt="Descrição 02">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h2>Título de descrição 02</h2>
+                        <p>Texto de descrição 02</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="img/rest03.webp" class="d-block w-100" alt="Descrição 03">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h2>Título de descrição 03</h2>
+                        <p>Texto de descrição 03</p>
+                    </div>
+                </div>
+            </div>
+            <a href="#mainSlider" class="carousel-control-prev" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a href="#mainSlider" class="carousel-control-next" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
+        </div>
+    </div>
 </main>
 <div class="footer-curve-divider"><div></div></div>
 <footer>
