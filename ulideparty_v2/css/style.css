@@ -17,8 +17,8 @@
 
 /* Gerais */
 body {
-    background: linear-gradient(#2c064b 40%, #FF6DAF 100%);
-    font-family: 'Source Code Pro', Arial, sans-serif;
+    background: linear-gradient(#2c064b 40%, #FF6DAF 100%) no-repeat;
+    font-family: 'Source Sans Pro', Arial, sans-serif;
 }
 
 .row {
@@ -26,7 +26,7 @@ body {
 }
 
 h1 {
-    color: #2C064B;
+    color: var(--BGSilver);
     font-size: 36px;
 }
 
@@ -42,6 +42,7 @@ p, li {
 /* Barra de Navegação */
 header, .navbar {
     background-color: #404040;
+    min-height: 91px;
 }
 
 #nav-container {
@@ -55,15 +56,15 @@ header, .navbar {
 
 .navbar-brand {
     padding: 0;
-    color: #c0c0c0;
+    color: var(--BGSilver);
 }
 
 .navbar-brand:hover {
-    color: #c0c0c0;
+    color: var(--BGSilver);
 }
 
 #navbar-links a {
-    color: #c0c0c0;
+    color: var(--BGSilver);
 }
 
 .navbar-expand-lg .navbar-nav .nav-link {
@@ -72,16 +73,63 @@ header, .navbar {
 
 #main-logo:hover {
     position: absolute;
-    width: 90px;
+    width: 85px;
 }
 
 /* Home Page */
+.header {
+    background-image: url("../img/lisboa.png");
+    padding: 200px 0;
+}
+
+.bg-cover {
+    background-size: cover;
+    background-position: 0 25%;
+    background-repeat: no-repeat;
+}
+
+.slogan > h1{
+    font-size: 60px;
+    color: var(--HoneyYellow);
+    font-family: 'Dancing Script', cursive;
+}
+
+.curve-divider.inverted {
+    background-image: radial-gradient(75% 100% at top, transparent calc(100% - 3px), var(--RussianViolet));
+    height: 25vw;
+    margin-top: -25vw;
+}
+
+.curve-divider {
+    height: 5vw;
+    min-height: 5vh;
+    overflow: hidden;
+}
+
 .cardtype {
     width: 325px;
     height: 500px;
+    border: none;
+    border-radius: 15px;
+    margin-top: 100px;
+    margin-bottom: 100px;
 }
 
 footer {
     background-color: #404040;
-    border-radius: 15px;
+    min-height: 300px;
+    //border-radius: 100px 100px 0 0;
+}
+
+.footer-curve-divider {
+    height: 50px;
+    margin-top: 150px;
+}
+
+.footer-curve-divider > div {
+    background: radial-gradient(75% 100% at bottom, var(--BGOnix) calc(100% - 3px), transparent);
+}
+
+.footer-curve-divider > div, .curve-divider > div {
+    height: 375%;
 }
