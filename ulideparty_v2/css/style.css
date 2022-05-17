@@ -165,6 +165,7 @@ footer p {
 /* Slider */
 .slider {
     padding: 0;
+    margin-bottom: 15px;
 }
 
 #mainSlider .carousel-inner, #mainSlider .carousel-item {
@@ -188,4 +189,59 @@ footer p {
 
 .carousel-indicators .active {
     background-color: var(--RussianViolet);
+}
+
+/* Sobre a empresa */
+#about-area {
+    background-color: var(--BGSilver);
+    padding: 25px 0 50px 0;
+    margin: 50px 25px 0 25px;
+    border-radius: 15px;
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.14), 0 1px 18px rgba(0, 0, 0, 0.12), 0 3px 5px rgba(0, 0, 0, 0.2);
+}
+
+#about-area p {
+    margin: 0.5em 0;
+}
+
+.main-title {
+    color: var(--RussianViolet);
+    margin: 0 0 50px 0;
+    font-size: 40px;
+    text-align: center;
+}
+
+.main-title::after {
+    content: "";
+    border-top: 4px solid var(--HotPink);
+    border-radius: 15px;
+    width: 50%;
+    position: absolute;
+    top: 60px;
+    left: 25%;
+}
+
+.about-title {
+    font-size: 20px;
+    color: var(--RussianViolet);
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+#about-list {
+    list-style: none;
+    padding-left: 0;
+}
+
+#about-list li {
+    line-height: 30px;
+}
+
+#about-list i {
+    color: var(--HotPink);
+    margin-right: 15px;
+}
+
+.img-fluid {
+    border-radius: 15px;
 }

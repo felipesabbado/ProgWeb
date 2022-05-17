@@ -98,6 +98,38 @@
             </a>
         </div>
     </div>
+    <!-- End Slider (Carousel) -->
+
+    <!-- About -->
+    <div class="container-fluid">
+        <div id="about-area">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <h3 class="main-title">Sobre o Ulide Party</h3>
+                    </div>
+                    <div class="col-md-6">
+                        <img class="img-fluid" src="img/rest04.webp" alt="Teste">
+                    </div>
+                    <div class="col-md-6">
+                        <h3 class="about-title">Venha se divertir com seus amigos!</h3>
+                        <p>Texto exemplificativo</p>
+                        <p>Texto exemplificativo</p>
+                        <p>Texto exemplificativo</p>
+                        <p>Texto exemplificativo</p>
+                        <ul id="about-list">
+                            <li><i class="fi-br-check"></i> Item 01</li>
+                            <li><i class="fi-br-check"></i> Item 02</li>
+                            <li><i class="fi-br-check"></i> Item 03</li>
+                            <li><i class="fi-br-check"></i> Item 04</li>
+                            <li><i class="fi-br-check"></i> Item 05</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End About -->
 </main>
 <div class="footer-curve-divider"><div></div></div>
 <footer>
