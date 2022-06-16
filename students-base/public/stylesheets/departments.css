@@ -1,0 +1,78 @@
+body {
+  background-color: green;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  color: darkred;
+}
+
+a {
+  color: darkred;
+}
+
+.header-container {
+  display: flex;
+  background-color: lightgreen;
+  padding: 40px;
+  align-items: center;
+}
+
+.header-logo {
+  text-align: center;
+  width: 115px;
+  margin-bottom: 10px;
+}
+
+.header-logo img {
+  margin-bottom: 15px;
+}
+
+.header-title {
+  width: 100%;
+  text-align: center;
+}
+
+.main-container {
+  display: flex;
+}
+
+.main-departments {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 40%;
+}
+
+.department {
+  display: flex;
+  width: 200px;
+  background-color: lightcoral;
+  margin: 10px;
+  padding: 10px;
+  align-items: center;
+}
+
+.initials {
+  width: 30%;
+  text-align: center;
+  background-color: darkred;
+  color: white;
+  margin: 10px;
+  padding: 5px;
+  height: fit-content;
+}
+
+.initials h3 {
+  margin: 0;
+}
+
+.department-info {
+  width: 60%;
+  color: white;
+}
+
+.department-info li {
+  padding: 5px;
+}
+
+.department-info button {
+
+}
