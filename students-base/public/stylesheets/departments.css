@@ -1,3 +1,4 @@
+@charset "UTF-8";
 body {
   background-color: green;
   font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
@@ -37,6 +38,7 @@ a {
 .main-departments {
   display: flex;
   flex-wrap: wrap;
+  align-content: flex-start;
   justify-content: center;
   width: 40%;
 }
@@ -44,10 +46,11 @@ a {
 .department {
   display: flex;
   width: 200px;
-  background-color: lightcoral;
+  background-color: indianred;
   margin: 10px;
   padding: 10px;
   align-items: center;
+  cursor: pointer;
 }
 
 .initials {
@@ -60,8 +63,9 @@ a {
   height: fit-content;
 }
 
-.initials h3 {
+.initials h2, h3 {
   margin: 0;
+  padding: 5px;
 }
 
 .department-info {
@@ -73,6 +77,6 @@ a {
   padding: 5px;
 }
 
-.department-info button {
-
+.insert-button{
+  text-align: center;
 }

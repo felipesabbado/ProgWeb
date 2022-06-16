@@ -1,6 +1,6 @@
-var express = require('express');
-var router = express.Router();
-var mStuds = require("../models/studentsModel");
+let express = require('express');
+let router = express.Router();
+let mStuds = require("../models/studentsModel");
 
 /* GET all students */
 router.get('/', async function(req, res, next) {

@@ -1,0 +1,18 @@
+@charset "UTF-8";
+body {
+    background-color: green;
+    font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+    color: darkred;
+}
+
+.header-container {
+    display: flex;
+    background-color: lightgreen;
+    padding: 40px;
+    align-items: center;
+}
+
+.header-title {
+    width: 100%;
+    text-align: center;
+}
