@@ -9,7 +9,7 @@ router.get('/', async function(req, res, next) {
 });
 
 /* GET all Units from a Department */
-router.get('/:unt_id', async function(req, res, next) {
+router.get('/:unt_id(\\d+)', async function(req, res, next) {
     let units = await mDeparts.getUnitsByDepartment(req.params.unt_id);
     res.send(units);
 });
