@@ -18,17 +18,19 @@ a {
 
 .header-logo {
   text-align: center;
-  width: 115px;
+  /*width: 115px;*/
   margin-bottom: 10px;
 }
 
 .header-logo img {
   margin-bottom: 15px;
+  display: block;
 }
 
 .header-title {
-  width: 100%;
-  text-align: center;
+  /*width: 100%;
+  text-align: center;*/
+  margin: auto;
 }
 
 .main-container {

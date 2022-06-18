@@ -1,19 +1,35 @@
 * {
     text-align: center;
-
-    margin: 0px;
+    color: white;
+    padding: 20px;
+    margin: 0;
+    font-family: "DejaVu Sans", sans-serif;
 }
+
 header {
-    background-color: #2c064b;
-    color: #ffb500;
+    background-color: red;
 }
 
-header h1 {
-    font-family: Candara;
-    font-style: italic;
+nav {
+    background-color: green;
 }
 
 main {
-    font-family: "DejaVu Sans";
-    background-color: #ff6daf;
+    background-color: orange;
+    height: 300px;
+}
+
+main > section {
+    background-color: darkviolet;
+    width: calc(50% - 40px);
+    height: 200px;
+    margin: auto;
+}
+
+aside {
+    background-color: blue;
+}
+
+footer {
+    background-color: magenta;
 }
