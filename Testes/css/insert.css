@@ -1,0 +1,80 @@
+* {
+    font-family: "DejaVu Sans", sans-serif;
+    padding: 5px;
+    margin: 5px;
+}
+
+header {
+    background-color: red;
+    text-align: center;
+}
+
+header, main, footer, main section {
+    padding: 10px;
+    margin: 10px;
+    color: white;
+}
+
+main {
+    background-color: orange;
+    display: grid;
+    grid-template-columns: 30% 70%;
+    justify-content: start;
+}
+
+main label {
+    color: darkred;
+}
+
+main label, main input, main select, main .error {
+    font: 1.4em "DejaVu Sans", sans-serif;
+    padding: 5px;
+    margin: 5px;
+}
+
+input, select {
+    background-color: firebrick;
+    border-color: darkred;
+    color: gold;
+    border-radius: 4px;
+}
+
+.error {
+    display: none;
+    color: darkred;
+}
+
+main .error, main input[type="button"] {
+    grid-column: span 2;
+}
+
+main input[type="button"], main label, main .error {
+    justify-self: center;
+}
+
+input[type="number"]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+}
+
+input:focus {
+    outline-color: white;
+}
+
+#price {
+    max-width: 100px;
+}
+
+#type {
+    width: 200px;
+}
+
+#name {
+    min-width: 100px;
+    max-width: 400px;
+    width: 100%;
+}
+
+footer {
+    background-color: magenta;
+    text-align: center;
+}

@@ -1,35 +1,46 @@
 * {
     text-align: center;
     color: white;
-    padding: 20px;
-    margin: 0;
+    padding: 10px;
+    margin: 5px;
     font-family: "DejaVu Sans", sans-serif;
+}
+
+body {
+    display: grid;
+    grid-template-columns: 100px 50% auto;
+    grid-gap: 5px 10px;
+    grid-template-areas: 'h h h' 'n n n' 'a m m' 'f f f';
 }
 
 header {
     background-color: red;
+    grid-area: h;
 }
 
 nav {
     background-color: green;
+    grid-area: n;
 }
 
 main {
     background-color: orange;
-    height: 300px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    grid-area: m;
 }
 
-main > section {
+main section {
     background-color: darkviolet;
-    width: calc(50% - 40px);
-    height: 200px;
-    margin: auto;
 }
 
 aside {
     background-color: blue;
+    grid-area: a;
 }
 
 footer {
     background-color: magenta;
+    grid-area: f;
 }
