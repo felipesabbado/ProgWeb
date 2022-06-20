@@ -14,6 +14,18 @@
         <h3>Insert new Unit</h3>
     </div>
 </div>
+<main>
+    <div class="main-container">
+        <label for="unt_name">Department name:</label>
+        <input type="text" id="unt_name" placeholder="Unit name">
+        <p class="error" id="ename"></p>
 
+        <label for="unt_credits">Number of credits:</label>
+        <input type="number" id="unt_credits" min="1" max="6" placeholder="Insert a integer number (1-6)">
+        <p class="error" id="ecredits">Please write a valid value of credits.</p>
+
+        <input type="button" value="Submit" onclick="submitUnit()">
+    </div>
+</main>
 </body>
 </html>

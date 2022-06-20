@@ -16,3 +16,49 @@ body {
     width: 100%;
     text-align: center;
 }
+
+.main-container {
+    display: grid;
+    grid-template-columns: 30% 70%;
+    justify-content: start;
+    background-color: indianred;
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 650px;
+}
+
+main label {
+    font-weight: bold;
+}
+
+main label, main input, main .error {
+    font-size: 1.4em;
+    margin: 5px;
+    padding: 5px;
+}
+
+input, select {
+    background-color: firebrick;
+    border-color: darkred;
+    color: gold;
+    border-radius: 4px;
+}
+
+main .error, main input[type="button"] {
+    grid-column: span 2;
+}
+
+main input[type="button"], main label {
+    justify-self: center;
+}
+
+#unt_name, #unt_credits {
+    min-width: 100px;
+    max-width: 400px;
+    width: 100%;
+}
+
+.error {
+    display: none;
+    color: darkred;
+}
