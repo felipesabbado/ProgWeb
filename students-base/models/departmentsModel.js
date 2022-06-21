@@ -15,7 +15,7 @@ module.exports.getAllDepartments = async function() {
 
 module.exports.getUnitsByDepartment = async function(unt_id) {
     try {
-        const sql = "SELECT * FROM units WHERE unt_dep_id = $1";
+        const sql = "select u.unt_id, unt_name, unt_credits, s.pla_semester from units u inner join studyplans s on u.unt_id = s.pla_unt_id where u.unt_dep_id = $1";
         const units = await pool.query(sql, [unt_id]);
 
         console.log(sql);

@@ -36,7 +36,7 @@ async function showUnits(departmentId) {
     let html = '<ul id="units">';
 
     for (let unit of units) {
-        html += `<li>${unit.unt_name} - credits: ${unit.unt_credits} - semester: ${unit.unt_dep_id}</li>`
+        html += `<li>${unit.unt_name} - credits: ${unit.unt_credits} - semester: ${unit.pla_semester}</li>`
     }
     html += `</ul><div class="insert-button"><button class="insert-unit" type="button" onclick="insertUnit(${departmentId})">Insert unit</button></div>`;
 
